@@ -21,9 +21,9 @@ function Header() {
         <h1>About me</h1>
         <p>
           I am a aspiring self-taught Web Developer who's doing The Odin Project
-          Full Stack JavaScript course. For this last project of the front-end
-          part i will be implementing responsive design and also showcasing some
-          of my best front-end works till date.
+          Full Stack JavaScript course. For this project i will be implementing
+          responsive design for the first time and also showcasing some of my
+          best front-end works till date.
         </p>
         <div className="text-container-footer">
           <a href="https://twitter.com/stanimir_kosev">
