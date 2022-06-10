@@ -1,17 +1,41 @@
 import React from "react";
 import stockPhoto1 from "../images/stock_photos/stock_photo1.png";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import goodreadsLogo from "../images/goodreads-logo.png";
 
 function Header() {
   return (
     <header>
+      <span className="clipped-background-wrap">
+        <div className="clipped-background"></div>
+      </span>
       <div className="image-container">
         <img src={stockPhoto1} alt="" className="stock-photo-first" />
-        <p>Stanimir Kosev</p>
+        <div className="image-text-container">
+          <p>Stanimir Kosev</p>
+        </div>
       </div>
 
       <div className="text-container">
         <h1>About me</h1>
-        <p>Lorem sakdlaksdkals;d;lsal;dsal;sd</p>
+        <p>
+          I am a aspiring self-taught Web Developer who's doing The Odin Project
+          Full Stack JavaScript course. For this last project of the front-end
+          part i will be implementing responsive design and also showcasing some
+          of my best front-end works till date.
+        </p>
+        <div className="text-container-footer">
+          <a href="https://twitter.com/stanimir_kosev">
+            <TwitterIcon className="material-ui-icon twitter-logo" />
+          </a>
+          <a href="https://www.goodreads.com/user/show/124508945-stanimir-kosev">
+            <img src={goodreadsLogo} alt="" className="goodreads-logo" />
+          </a>
+          <a href="https://github.com/StanimirKosev">
+            <GitHubIcon className="material-ui-icon" />
+          </a>
+        </div>
       </div>
     </header>
   );
