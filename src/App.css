@@ -157,14 +157,49 @@ header {
 
 .project-icon {
   transition: transform 0.3s ease, color 0.3s ease !important;
-  color: #808080;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .project-icon:hover {
   transform: scale(1.2);
-  color: black;
+  color: rgba(0, 0, 0, 1);
 }
 
 .contact {
-  min-height: 100vh;
+  background-color: #02093b;
+  padding: 5rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+
+.contact-info > p,
+.email-container > p {
+  font: 18px "Roboto", sans-serif;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.contact-footer {
+  display: flex;
+  gap: 0 20px;
+}
+
+.github-footer {
+  color: white !important;
+}
+
+.stock-photo-second {
+  max-width: 30vw;
+  height: auto;
 }
