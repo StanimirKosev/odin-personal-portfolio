@@ -4,4 +4,8 @@ The Odin Project Curriculum - Full Stack JavaScript Path - Advanced HTML and CSS
 
 Goal: Create a responsive personal portfolio.
 
+## Features:
+
+- Responsive Design - full dekstop, tablet and mobile.
+
 [Demo Link](https://stanimirkosev.github.io/odin-personal-portfolio/)
