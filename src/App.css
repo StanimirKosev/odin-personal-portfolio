@@ -52,7 +52,7 @@ header {
 
 .image-text-container {
   position: absolute;
-  bottom: 5px;
+  bottom: 3px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -74,7 +74,6 @@ header {
 .text-container > h1,
 .main > h1 {
   margin-bottom: 20px;
-  font: 500 2rem; /*font-weight font-size*/
 }
 
 .text-container > p {
@@ -226,7 +225,7 @@ header {
   }
 
   .text-container {
-    margin: 5rem 2rem 0;
+    margin: 5rem 2.5rem 0;
   }
 
   .text-container > h1 {
@@ -236,5 +235,86 @@ header {
 
   .contact-info {
     justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 2rem 2.5rem 0;
+  }
+
+  .header-content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-right: 0;
+  }
+
+  .stock-photo-first {
+    max-width: 100%;
+    min-height: 50vh;
+    object-fit: cover;
+  }
+
+  .clipped-background {
+    max-height: 22rem;
+  }
+
+  .image-text-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: auto;
+    right: auto;
+    width: 100%;
+  }
+
+  .image-text-container > p {
+    padding: 0 15px;
+  }
+
+  .text-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+  }
+
+  .main {
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info {
+    padding: 2rem 1rem 5rem;
+  }
+
+  .contact-info > h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-icon {
+    font-size: 45px !important;
+  }
+
+  .stock-photo-second {
+    max-width: 100%;
+    min-height: 70vh;
+    object-fit: cover;
   }
 }

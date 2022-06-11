@@ -19,10 +19,10 @@ function Contact() {
         </div>
         <div className="contact-footer">
           <a href="https://twitter.com/stanimir_kosev">
-            <TwitterIcon className="material-ui-icon twitter-logo" />
+            <TwitterIcon className="material-ui-icon twitter-logo contact-icon" />
           </a>
           <a href="https://github.com/StanimirKosev">
-            <GitHubIcon className="material-ui-icon github-footer" />
+            <GitHubIcon className="material-ui-icon github-footer contact-icon" />
           </a>
         </div>
       </div>
