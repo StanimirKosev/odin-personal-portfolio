@@ -7,8 +7,6 @@
 }
 
 body {
-  width: 100%;
-  min-height: 100vh;
   font-family: "Playfair Display", serif;
 }
 
@@ -35,9 +33,16 @@ header {
   clip-path: polygon(0 0, 100% 0, 100% 31%, 0% 100%);
 }
 
+.header-content-wrapper {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
 .image-container {
   position: relative;
   z-index: 2;
+  float: left;
 }
 
 .stock-photo-first {
@@ -68,7 +73,7 @@ header {
 
 .text-container > h1,
 .main > h1 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font: 500 2rem; /*font-weight font-size*/
 }
 
@@ -86,7 +91,6 @@ header {
 
 .goodreads-logo {
   width: 35px;
-  height: 35px;
   transition: transform 0.3s ease;
 }
 
@@ -112,8 +116,7 @@ header {
 .projects-grid {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-template-rows: repeat(2, 50%);
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 50px;
 }
 
@@ -123,12 +126,11 @@ header {
 
 .project-images {
   max-width: 100%;
-  height: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .project-description {
-  padding: 10px 30px;
+  padding: 10px 30px 30px;
 }
 
 .project-description > p {
@@ -167,7 +169,7 @@ header {
 
 .contact {
   background-color: #02093b;
-  padding: 5rem;
+  padding: 2.5rem 5rem;
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -201,5 +203,38 @@ header {
 
 .stock-photo-second {
   max-width: 30vw;
-  height: auto;
+}
+
+@media (max-width: 1000px) {
+  header {
+    padding: 2rem 2.5rem 0; /*top and sides divided by 2 , bottom 0*/
+  }
+
+  .header-content-wrapper {
+    display: block;
+  }
+
+  .image-container {
+    margin-right: 20px;
+  }
+
+  .image-text-container {
+    background-color: transparent;
+    top: 20px;
+    right: -90%;
+    width: auto;
+  }
+
+  .text-container {
+    margin: 5rem 2rem 0;
+  }
+
+  .text-container > h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-info {
+    justify-content: center;
+  }
 }
