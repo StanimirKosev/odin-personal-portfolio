@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/odin-personal-portfolio/static/css/main.18fef955.css",
+    "main.js": "/odin-personal-portfolio/static/js/main.af899b4b.js",
+    "static/media/stock_photo2.png": "/odin-personal-portfolio/static/media/stock_photo2.772aa3a1778c9080b91e.png",
+    "static/media/stock_photo1.png": "/odin-personal-portfolio/static/media/stock_photo1.52e8c9f1d5950bb2ea5c.png",
+    "static/media/wheres-waldo-screenshot.png": "/odin-personal-portfolio/static/media/wheres-waldo-screenshot.75002d068490aa376341.png",
+    "static/media/shopping-cart-screenshot.png": "/odin-personal-portfolio/static/media/shopping-cart-screenshot.8318408be57d07396127.png",
+    "static/media/battleship-screenshot.png": "/odin-personal-portfolio/static/media/battleship-screenshot.bdfe6f746abf6cd98351.png",
+    "static/media/memory-card-screenshot.png": "/odin-personal-portfolio/static/media/memory-card-screenshot.323ae04c7aae0a6d6b96.png",
+    "static/media/twitter-clone-screenshot.png": "/odin-personal-portfolio/static/media/twitter-clone-screenshot.88b5643907b2e2698bb5.png",
+    "static/media/todo-list-screenshot.png": "/odin-personal-portfolio/static/media/todo-list-screenshot.3c81c2d3bf9f507aa3e1.png",
+    "static/media/goodreads-logo.png": "/odin-personal-portfolio/static/media/goodreads-logo.730033e7be7ba13bc8d7.png",
+    "index.html": "/odin-personal-portfolio/index.html",
+    "main.18fef955.css.map": "/odin-personal-portfolio/static/css/main.18fef955.css.map",
+    "main.af899b4b.js.map": "/odin-personal-portfolio/static/js/main.af899b4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18fef955.css",
+    "static/js/main.af899b4b.js"
+  ]
+}
