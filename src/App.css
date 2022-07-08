@@ -99,6 +99,14 @@ header {
   transition: transform 0.3s ease !important;
 }
 
+.fb-logo {
+  color: #4267b2 !important;
+}
+
+.fb-logo-contact {
+  color: white !important;
+}
+
 .goodreads-logo:hover,
 .material-ui-icon:hover {
   transform: scale(1.2);
@@ -112,6 +120,7 @@ header {
   padding: 5rem;
 }
 
+.skills-grid,
 .projects-grid {
   display: grid;
   justify-items: center;
@@ -180,11 +189,13 @@ header {
   gap: 15px 0;
 }
 
+.phone-container > p,
 .contact-info > p,
 .email-container > p {
   font: 18px "Roboto", sans-serif;
 }
 
+.phone-container,
 .email-container {
   display: flex;
   align-items: center;
@@ -202,6 +213,75 @@ header {
 
 .stock-photo-second {
   max-width: 30vw;
+}
+
+a {
+  color: #808080;
+}
+
+a:hover {
+  color: #1e90ff;
+}
+
+.main > h1 > span {
+  font-family: "Roboto";
+}
+
+.skills-grid {
+  margin-bottom: 50px;
+}
+
+.misc-tools,
+.back-end-skills,
+.front-end-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.misc-tools > h2,
+.back-end-skills > h2,
+.front-end-skills > h2 {
+  margin-bottom: 10px;
+}
+
+img[alt*="icon"] {
+  width: 47px;
+  height: 47px;
+}
+
+img[alt*="mongodb"],
+img[alt*="firebase"],
+img[alt*="react"] {
+  width: auto;
+}
+
+.misc-icons-container,
+.back-end-icons-container,
+.front-end-icons-container {
+  padding: 25px;
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.misc-icons-container > *,
+.back-end-icons-container > *,
+.front-end-icons-container > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #808080;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.misc-icons-container > *:hover,
+.back-end-icons-container > *:hover,
+.front-end-icons-container > *:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 1000px) {
