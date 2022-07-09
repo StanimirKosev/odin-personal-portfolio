@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/odin-personal-portfolio/static/css/main.18fef955.css",
-    "main.js": "/odin-personal-portfolio/static/js/main.af899b4b.js",
+    "main.css": "/odin-personal-portfolio/static/css/main.3e7dd5d4.css",
+    "main.js": "/odin-personal-portfolio/static/js/main.2d5ec15f.js",
     "static/media/stock_photo2.png": "/odin-personal-portfolio/static/media/stock_photo2.772aa3a1778c9080b91e.png",
     "static/media/stock_photo1.png": "/odin-personal-portfolio/static/media/stock_photo1.52e8c9f1d5950bb2ea5c.png",
-    "static/media/wheres-waldo-screenshot.png": "/odin-personal-portfolio/static/media/wheres-waldo-screenshot.75002d068490aa376341.png",
     "static/media/shopping-cart-screenshot.png": "/odin-personal-portfolio/static/media/shopping-cart-screenshot.8318408be57d07396127.png",
-    "static/media/battleship-screenshot.png": "/odin-personal-portfolio/static/media/battleship-screenshot.bdfe6f746abf6cd98351.png",
     "static/media/memory-card-screenshot.png": "/odin-personal-portfolio/static/media/memory-card-screenshot.323ae04c7aae0a6d6b96.png",
+    "static/media/react.png": "/odin-personal-portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/twitter-clone-screenshot.png": "/odin-personal-portfolio/static/media/twitter-clone-screenshot.88b5643907b2e2698bb5.png",
+    "static/media/mogodb-lastone.png": "/odin-personal-portfolio/static/media/mogodb-lastone.a17542579c8d669ff297.png",
+    "static/media/blog-client.png": "/odin-personal-portfolio/static/media/blog-client.a3378ca849a668dfd801.png",
+    "static/media/firebase-logo.png": "/odin-personal-portfolio/static/media/firebase-logo.ce5d87a009b9fcc80bdb.png",
+    "static/media/members-only.png": "/odin-personal-portfolio/static/media/members-only.e849f7a40ceefab368aa.png",
+    "static/media/linux.png": "/odin-personal-portfolio/static/media/linux.3db32b955e9b61f35998.png",
     "static/media/todo-list-screenshot.png": "/odin-personal-portfolio/static/media/todo-list-screenshot.3c81c2d3bf9f507aa3e1.png",
     "static/media/goodreads-logo.png": "/odin-personal-portfolio/static/media/goodreads-logo.730033e7be7ba13bc8d7.png",
+    "static/media/jest.png": "/odin-personal-portfolio/static/media/jest.809768de8350fa5f6a21.png",
+    "static/media/webpack.png": "/odin-personal-portfolio/static/media/webpack.73f95c1c299540c84e4b.png",
+    "static/media/css.png": "/odin-personal-portfolio/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/odin-personal-portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/express.png": "/odin-personal-portfolio/static/media/express.e3d4f9e5c8b469e45838.png",
+    "static/media/nodejs-icon.svg": "/odin-personal-portfolio/static/media/nodejs-icon.6401477eeed2b4c178d212f1fd08b137.svg",
     "index.html": "/odin-personal-portfolio/index.html",
-    "main.18fef955.css.map": "/odin-personal-portfolio/static/css/main.18fef955.css.map",
-    "main.af899b4b.js.map": "/odin-personal-portfolio/static/js/main.af899b4b.js.map"
+    "main.3e7dd5d4.css.map": "/odin-personal-portfolio/static/css/main.3e7dd5d4.css.map",
+    "main.2d5ec15f.js.map": "/odin-personal-portfolio/static/js/main.2d5ec15f.js.map"
   },
   "entrypoints": [
-    "static/css/main.18fef955.css",
-    "static/js/main.af899b4b.js"
+    "static/css/main.3e7dd5d4.css",
+    "static/js/main.2d5ec15f.js"
   ]
 }
