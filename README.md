@@ -12,4 +12,4 @@ Goal: Create a responsive personal portfolio.
 
 ## Demo gif
 
-[!project gif](./src/images/mobile.gif)
+![project gif](./src/images/cropped-mobile.gif)
