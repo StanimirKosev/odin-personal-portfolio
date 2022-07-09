@@ -31,8 +31,8 @@ function Header() {
             <a href="https://www.theodinproject.com/paths/full-stack-javascript">
               Full Stack JavaScript curriculum.
             </a>{" "}
-            My hobbies are reading books, listening to podcasts, investing and
-            lifting weights.
+            Besides coding, i like to read books, listen to podcasts, invest and
+            lift weights.
           </p>
           <div className="text-container-footer">
             <a href="https://www.facebook.com/profile.php?id=100007097650520">

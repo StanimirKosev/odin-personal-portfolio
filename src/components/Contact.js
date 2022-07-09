@@ -31,7 +31,7 @@ function Contact() {
             <GitHubIcon className="material-ui-icon github-footer contact-icon" />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100007097650520">
-            <FacebookIcon className="material-ui-icon fb-logo-contact" />
+            <FacebookIcon className="material-ui-icon fb-logo-contact contact-icon" />
           </a>
         </div>
       </div>
