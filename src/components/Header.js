@@ -23,10 +23,10 @@ function Header() {
           <p>
             I am an aspiring self-taught Web Developer who started his coding
             journey with{" "}
-            <a href="https://certificates.saylor.org/profile/stanimirkosev551704/wallet#gs.59fom3">
+            <a href="https://www.credential.net/profile/stanimirkosev551704/wallet#gs.5y10xa">
               a couple of courses
             </a>{" "}
-            from <a href="https://www.saylor.org/">saylor.org academy</a> and{" "}
+            from <a href="https://www.saylor.org/">Saylor Academy</a> and{" "}
             <a href="https://www.theodinproject.com/">The Odin Project</a>{" "}
             <a href="https://www.theodinproject.com/paths/full-stack-javascript">
               Full Stack JavaScript curriculum.

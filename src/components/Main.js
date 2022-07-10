@@ -102,7 +102,7 @@ function Main() {
         <Project
           img={twitterClone}
           name="Twitter Clone"
-          description="Last project of The Odin Project's JavaScript course, the goal was to replicate your favorite website, it was build with React and Firebase."
+          description="Last project of The Odin Project's JavaScript course, the goal was to replicate your favorite website, it was built with React and Firebase."
           github="https://github.com/StanimirKosev/odin-twitter-clone"
           project="https://stanimirkosev.github.io/odin-twitter-clone/"
         />
@@ -116,21 +116,21 @@ function Main() {
         <Project
           img={shoppingCart}
           name="Shopping Cart"
-          description="Book e-commerce build with React."
+          description="Book e-commerce built with React."
           github="https://github.com/StanimirKosev/odin-shopping-cart"
           project="https://stanimirkosev.github.io/odin-shopping-cart/"
         />
         <Project
           img={memoryCard}
           name="Memory Card"
-          description="Memory card game build with react."
+          description="Memory card game built with React."
           github="https://github.com/StanimirKosev/odin-memory-card"
           project="https://stanimirkosev.github.io/odin-memory-card/"
         />
         <Project
           img={todoList}
           name="To-do List"
-          description="To-do list app build with vanilla JavaScript and Webpack."
+          description="To-do list app built with vanilla JavaScript and Webpack."
           github="https://github.com/StanimirKosev/odin-to-do-list"
           project="https://stanimirkosev.github.io/odin-to-do-list/"
         />
