@@ -1,8 +1,8 @@
 import React from "react";
 import Project from "./Project";
-import memoryCard from "../images/project_screenshots/memory-card-screenshot.png";
+import toDoList from "../images/project_screenshots/todo-list-screenshot.png";
 import shoppingCart from "../images/project_screenshots/shopping-cart-screenshot.png";
-import todoList from "../images/project_screenshots/todo-list-screenshot.png";
+import battleship from "../images/project_screenshots/battleship.png";
 import twitterClone from "../images/project_screenshots/twitter-clone-screenshot.png";
 import blog from "../images/project_screenshots/blog-client.png";
 import membersOnly from "../images/project_screenshots/members-only.png";
@@ -121,16 +121,16 @@ function Main() {
           project="https://stanimirkosev.github.io/odin-shopping-cart/"
         />
         <Project
-          img={memoryCard}
-          name="Memory Card"
-          description="Memory card game built with React."
-          github="https://github.com/StanimirKosev/odin-memory-card"
-          project="https://stanimirkosev.github.io/odin-memory-card/"
+          img={battleship}
+          name="Battleship"
+          description="Battleship game created with vanilla JavaScript in order to practice TDD (test-driven development)."
+          github="https://github.com/StanimirKosev/odin-battleship"
+          project="https://stanimirkosev.github.io/odin-battleship/"
         />
         <Project
-          img={todoList}
-          name="To-do List"
-          description="To-do list app built with vanilla JavaScript and Webpack."
+          img={toDoList}
+          name="To-do list"
+          description="To-do list app build with vanilla JavaScript and Webpack."
           github="https://github.com/StanimirKosev/odin-to-do-list"
           project="https://stanimirkosev.github.io/odin-to-do-list/"
         />
