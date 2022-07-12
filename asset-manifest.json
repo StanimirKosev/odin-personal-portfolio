@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/odin-personal-portfolio/static/css/main.344f94f5.css",
-    "main.js": "/odin-personal-portfolio/static/js/main.36907894.js",
+    "main.js": "/odin-personal-portfolio/static/js/main.72010ab9.js",
     "static/media/stock_photo2.png": "/odin-personal-portfolio/static/media/stock_photo2.772aa3a1778c9080b91e.png",
     "static/media/stock_photo1.png": "/odin-personal-portfolio/static/media/stock_photo1.52e8c9f1d5950bb2ea5c.png",
     "static/media/shopping-cart-screenshot.png": "/odin-personal-portfolio/static/media/shopping-cart-screenshot.8318408be57d07396127.png",
-    "static/media/memory-card-screenshot.png": "/odin-personal-portfolio/static/media/memory-card-screenshot.323ae04c7aae0a6d6b96.png",
+    "static/media/battleship.png": "/odin-personal-portfolio/static/media/battleship.f575d13dd1b7b39d3473.png",
     "static/media/react.png": "/odin-personal-portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/twitter-clone-screenshot.png": "/odin-personal-portfolio/static/media/twitter-clone-screenshot.88b5643907b2e2698bb5.png",
     "static/media/mogodb-lastone.png": "/odin-personal-portfolio/static/media/mogodb-lastone.a17542579c8d669ff297.png",
@@ -23,10 +23,10 @@
     "static/media/nodejs-icon.svg": "/odin-personal-portfolio/static/media/nodejs-icon.6401477eeed2b4c178d212f1fd08b137.svg",
     "index.html": "/odin-personal-portfolio/index.html",
     "main.344f94f5.css.map": "/odin-personal-portfolio/static/css/main.344f94f5.css.map",
-    "main.36907894.js.map": "/odin-personal-portfolio/static/js/main.36907894.js.map"
+    "main.72010ab9.js.map": "/odin-personal-portfolio/static/js/main.72010ab9.js.map"
   },
   "entrypoints": [
     "static/css/main.344f94f5.css",
-    "static/js/main.36907894.js"
+    "static/js/main.72010ab9.js"
   ]
 }
